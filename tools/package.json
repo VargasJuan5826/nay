@@ -1,0 +1,18 @@
+{
+  "name": "nay-parity-tools",
+  "private": true,
+  "description": "Scripts de verificación de paridad entre el original en Next.js y el port a Streamlit",
+  "scripts": {
+    "setup": "npm install && npx playwright install chromium",
+    "compare": "node compare.js",
+    "pos": "node pos.js",
+    "pixdiff": "node pixdiff.js",
+    "functional": "node functional.js",
+    "canvas": "node canvascmp.js"
+  },
+  "dependencies": {
+    "pixelmatch": "^7.1.0",
+    "playwright": "^1.57.0",
+    "pngjs": "^7.0.0"
+  }
+}

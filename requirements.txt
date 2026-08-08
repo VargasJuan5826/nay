@@ -1,0 +1,4 @@
+# Versión fijada a propósito: el diseño replica el original ajustando el DOM interno de
+# Streamlit (clases `st-key-*`, `data-testid`), así que un salto de versión podría
+# alterar la vista. Subila cuando puedas verificar la paridad de nuevo.
+streamlit==1.61.1

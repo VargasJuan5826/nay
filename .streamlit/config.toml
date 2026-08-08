@@ -1,0 +1,18 @@
+[server]
+# Sirve `static/memes/*` en `app/static/memes/*` para poder usarlos desde HTML.
+enableStaticServing = true
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
+showSidebarNavigation = false
+
+[theme]
+base = "light"
+primaryColor = "#7c3aed"
+backgroundColor = "#f7f3ff"
+secondaryBackgroundColor = "#ffffff"
+textColor = "#1e1b4b"
+font = "sans-serif"
